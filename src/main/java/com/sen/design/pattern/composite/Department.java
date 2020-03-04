@@ -1,8 +1,5 @@
 package com.sen.design.pattern.composite;
 
-import java.util.ArrayList;
-import java.util.List;
-
 /**
  * @Auther: Sen
  * @Date: 2019/11/15 22:46

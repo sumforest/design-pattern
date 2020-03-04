@@ -3,7 +3,7 @@ package com.sen.design.pattern.flyweight;
 /**
  * @Auther: Sen
  * @Date: 2019/11/16 01:38
- * @Description:
+ * @Description: 享元模式
  */
 public class Client {
 

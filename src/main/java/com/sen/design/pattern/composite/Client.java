@@ -3,7 +3,7 @@ package com.sen.design.pattern.composite;
 /**
  * @Auther: Sen
  * @Date: 2019/11/15 22:52
- * @Description:
+ * @Description: 組合聚合模式
  */
 public class Client {
 

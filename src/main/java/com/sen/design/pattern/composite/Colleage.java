@@ -9,7 +9,9 @@ import java.util.List;
  * @Description:
  */
 public class Colleage extends OrgenizationComponent {
+
     private List<OrgenizationComponent> components = new ArrayList<>();
+
     public Colleage(String name, String dec) {
         super(name, dec);
     }

@@ -11,7 +11,9 @@ import java.util.List;
  * @Description:
  */
 public class University extends OrgenizationComponent {
+
     private List<OrgenizationComponent> components = new ArrayList<>();
+
     public University(String name, String dec) {
         super(name, dec);
     }
