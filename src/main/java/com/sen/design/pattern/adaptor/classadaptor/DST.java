@@ -6,5 +6,5 @@ package com.sen.design.pattern.adaptor.classadaptor;
  * @Description: 适配者接口
  */
 public interface DST {
-    public int getAdaptorVoltage();
+    int getAdaptorVoltage();
 }

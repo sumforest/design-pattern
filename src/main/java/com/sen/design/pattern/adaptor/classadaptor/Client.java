@@ -3,7 +3,7 @@ package com.sen.design.pattern.adaptor.classadaptor;
 /**
  * @Auther: Sen
  * @Date: 2019/11/15 15:57
- * @Description:
+ * @Description: 适配器模式--类适配
  */
 public class Client {
 

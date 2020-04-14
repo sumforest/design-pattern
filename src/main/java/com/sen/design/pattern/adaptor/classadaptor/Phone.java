@@ -6,6 +6,7 @@ package com.sen.design.pattern.adaptor.classadaptor;
  * @Description:
  */
 public class Phone {
+
     public void charging(Adaptor adaptor) {
         int adaptorVoltage = adaptor.getAdaptorVoltage();
         if (adaptorVoltage == 5) {
