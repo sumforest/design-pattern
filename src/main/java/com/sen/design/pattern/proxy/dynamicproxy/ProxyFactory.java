@@ -10,6 +10,10 @@ import java.lang.reflect.Proxy;
  * @Description: 动态代理工厂
  */
 public class ProxyFactory {
+
+    /**
+     * 被代理对象
+     */
     private Itearcher target;
 
     public ProxyFactory(Itearcher teacherDao) {

@@ -8,6 +8,7 @@ package com.sen.design.pattern.strategy;
 public class WildDuck extends Duck {
 
     public WildDuck() {
+        // 指定策略
         this.flyBehavior = new GoodFly();
     }
 

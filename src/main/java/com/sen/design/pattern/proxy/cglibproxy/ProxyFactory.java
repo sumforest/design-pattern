@@ -44,6 +44,7 @@ public class ProxyFactory implements MethodInterceptor {
      * @return
      * @throws Throwable
      */
+    @Override
     public Object intercept(Object o, Method method, Object[] objects, MethodProxy methodProxy) throws Throwable {
         System.out.println("cglib代理开始。。。。。");
         //执行被代理对象并返回被代理方法的返回值

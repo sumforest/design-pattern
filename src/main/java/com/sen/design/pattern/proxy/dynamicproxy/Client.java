@@ -8,7 +8,7 @@ package com.sen.design.pattern.proxy.dynamicproxy;
 public class Client {
 
     public static void main(String[] args) {
-        //创建被代理对象
+        //创建被代理对象（目标对象）
         Itearcher teacherDao = new TeacherDao();
         //创建代理对象工厂
         ProxyFactory proxyFactory = new ProxyFactory(teacherDao);

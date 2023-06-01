@@ -6,7 +6,10 @@ package com.sen.design.pattern.proxy.staticproxy;
  * @Description: 代理对象
  */
 public class TeacherProxy implements Itearcher {
-    //聚合被代理对象
+
+    /**
+     * 聚合被代理对象
+     */
     private Itearcher itearcher;
 
     public TeacherProxy(Itearcher itearcher) {

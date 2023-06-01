@@ -6,7 +6,10 @@ package com.sen.design.pattern.facade;
  * @Description:
  */
 public class HomeTheaterFacade {
-    //定义各个子系统对象
+
+    /**
+     * 定义各个子系统对象
+     */
     private TheaterLight theaterLight;
     private Popcorn popcorn;
     private Stereo stereo;
@@ -15,7 +18,9 @@ public class HomeTheaterFacade {
     private DVDPlayer dVDPlayer;
 
 
-    //构造器
+    /**
+     * 构造器
+     */
     public HomeTheaterFacade() {
         super();
         this.theaterLight = TheaterLight.getInstance();
@@ -26,7 +31,9 @@ public class HomeTheaterFacade {
         this.dVDPlayer = DVDPlayer.getInstanc();
     }
 
-    //操作分成 4  步
+    /**
+     * 操作分成 4  步
+     */
     public void ready() {
         popcorn.on();
         popcorn.pop();

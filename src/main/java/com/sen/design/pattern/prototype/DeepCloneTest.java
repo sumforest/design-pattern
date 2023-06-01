@@ -14,8 +14,10 @@ public class DeepCloneTest {
         deepClone.setTarget(deepCloneTarget);
 
         // DeepClone clone = (DeepClone) deepClone.clone();
+        DeepClone cloneShadow = (DeepClone) deepClone.clone();
         DeepClone clone = deepClone.cloneBySerializable();
         System.out.println("原对象：" + deepClone + "target：" + deepClone.getTarget().hashCode());
+        System.out.println("浅拷贝：" + cloneShadow + "target：" + cloneShadow.getTarget().hashCode());
         System.out.println("深拷贝对象：" + clone + "target：" + clone.getTarget().hashCode());
     }
 }

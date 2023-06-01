@@ -1,7 +1,5 @@
 package com.sen.design.pattern.resposibilitychain;
 
-import com.sen.design.pattern.state.RaffleActivity;
-
 import java.math.BigDecimal;
 
 /**

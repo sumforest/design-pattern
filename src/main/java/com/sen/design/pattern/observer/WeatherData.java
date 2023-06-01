@@ -6,7 +6,7 @@ import java.util.List;
 /**
  * @Auther: Sen
  * @Date: 2019/11/17 00:26
- * @Description:
+ * @Description: 具体被观察者
  */
 public class WeatherData implements Subject {
 

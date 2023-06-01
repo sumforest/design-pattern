@@ -1,7 +1,7 @@
 package com.sen.design.pattern.facade;
 
 /**
- * @Auther: Sen
+ * @author: Sen
  * @Date: 2020/3/4 18:16
  * @Description: 外观模式
  */

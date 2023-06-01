@@ -22,7 +22,7 @@ public class RaffleActivity {
     private State dispensePrize = new DispensePrize(this);
     private State outDispensePrize = new OutDispensePrize(this);
 
-    //初始化未不可抽奖状态
+    //初始化为不可抽奖状态
     public RaffleActivity(int count) {
         this.count = count;
         this.currentState = this.noRaffle;

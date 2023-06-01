@@ -1,9 +1,9 @@
 package com.sen.design.pattern.facade;
 
 /**
- * @Auther: Sen
- * @Date: 2020/3/4 18:20
- * @Description:
+ * @author: Sen
+ * @date: 2020/3/4 18:20
+ * @description:
  */
 public class Projector {
     private static Projector instance = new Projector();
